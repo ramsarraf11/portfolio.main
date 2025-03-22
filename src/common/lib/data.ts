@@ -10,6 +10,7 @@ import portfolioImg from '@/../public/images/portfolio.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import accountingImg from '@/../public/images/accounting.jpg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
+import { features } from 'process';
 
 export const links = [
   {
@@ -74,8 +75,8 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'Healthcare Device SDK',
-    description: `Developed a third-party SDK for organizations to integrate healthcare device testing, vitals monitoring, and report generation into their software.`,
+    title: 'Healthcare Device SDK with Admin Portal',
+    description: `Developed a third-party SDK for organizations to integrate healthcare device testing, vitals monitoring, and report generation into their software with admin functionalities.`,
     tags: ['Node.js', 'TypeScript', 'Express', 'MongoDB', 'AWS S3'],
     imageUrl: auditMasterImg,
     link: 'https://github.com/yourprofile/healthcare-sdk',
@@ -83,40 +84,40 @@ export const projectsData = [
   {
     title: 'Sense Enterprise Backend',
     description:
-      'Created and managed enterprise-level backend services for device connectivity, usage tracking, and admin functionalities.',
+      'Created and managed enterprise-level backend services for device connectivity, usage tracking',
     tags: ['Node.js', 'Express', 'TypeScript', 'MERN', 'Docker'],
     imageUrl: accountingImg,
     link: 'https://github.com/yourprofile/sense-enterprise',
   },
   {
-    title: 'LMS System',
+    title: 'REAN Healthcare Software ( Integration with Third-Party Backend )',
     description:
-      'Built a Learning Management System (LMS) with features like course creation, user management, and notifications.',
+      'Integrated Device SDK APIs to Capture, and Calculate their patient body vitals and Reports.',
     tags: [
-      'React',
+      'Node.js',
       'TypeScript',
-      'Next.js',
-      'MongoDB',
-      'Tailwind',
+      'Express',
+      'MySql',
+      'RabbitMQ',
     ],
     imageUrl: filedriveImg,
-    link: 'https://github.com/yourprofile/lms-system',
+    link: 'https://github.com/REAN-Foundation/reancare-service',
   },
   {
-    title: 'Portfolio Website',
-    description: `A personal portfolio showcasing my projects, skills, and experience in software development.`,
+    title: 'ClassFit  Website',
+    description: `ClassFit is scheduling software with a difference. Easily manage your classes, take payments and reduce drop-outs with our powerful booking software.`,
     tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Tailwind',
+      'NodeJs',
+      'JavaScript',
+      'Html/Css',
+      'Nodemiler',
+      'Google Outh',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/yourprofile/portfolio',
+    link: 'https://velvety-starburst-b38fa3.netlify.app/',
   },
   {
-    title: 'Video Call Service',
+    title: 'Postman Clone',
     description:
       'Developed a peer-to-peer video call service using WebRTC, Node.js, and Express.',
     tags: [
@@ -127,7 +128,7 @@ export const projectsData = [
       'MongoDB',
     ],
     imageUrl: surgeImg,
-    link: 'https://github.com/yourprofile/video-call-service',
+    link: 'https://github.com/ramsarraf11/postman-clone-postmaster',
   },
 ] as const;
 
